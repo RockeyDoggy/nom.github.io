@@ -1,0 +1,98 @@
+<head>
+  
+</head>
+
+<body>
+  <div id="backpaper"></div>
+  <div id="corpo">
+    <div id="wallpaper"></div>
+    <!--  //  ← Esquerda  //  -->
+    <div id="painelEsquedo">
+      <div id="conteudoEsquerdo">
+        <h1>Selecione um Boss</h1>
+        <div id="bossesRoxos"></div>
+      </div>
+    </div>
+    
+    <!--  //  ↨ Central  //  -->
+    <div id="painelCentral">Esquema de Centro</div>
+    
+    <!--  //   Direita →  //  -->
+    <div id="painelDireito">
+      <div id="conteudoDireito">
+        <h1></h1>
+        <div id="bossesEspeciais"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="bossScreen">
+    <div id="bossWindow">
+      <div id="bannerUser">
+        <h1 id="userName">Nome Do Boss</h1>
+        <p id="extraField"></p>
+      </div>
+      <h2 id="nick">Twitch_Nick</h2>
+      <div class="leftBossInfos">
+        <div id="inventory">
+          <h3>Conquistas</h3>
+          <p id="collection">
+            <img src="https://i.imgur.com/VbAIghD.png"/>
+          </p>
+          <h3>Inventory</h3>
+          <p id="lootlable">
+            <img src="https://i.imgur.com/3lRtdml.png"/>
+            <img src="https://i.imgur.com/8cPSvAg.png"/>
+            <img src="https://i.imgur.com/pXQUwin.png"/>
+            <img src="https://i.imgur.com/VbAIghD.png"/>
+            <img src="https://i.imgur.com/y3aPgPs.png"/>
+            <img src="https://i.imgur.com/m4nXwas.png"/>
+          </p>
+        </div>
+      </div>
+      
+      <div class="rightBossInfos">
+        <h4>Status</h4>
+        <div id="statsField">
+          
+          <h5>Vida:</h5>
+          <div id="lifeBar" class="barSize">
+            <div id="lifeDynamic" class="dynamicBar"></div>
+          </div>
+          
+          <h5>Resistencia:</h5>
+          <div id="resisBar" class="barSize">
+            <div id="resisDynamic" class="dynamicBar"></div>
+          </div>
+          
+          <h5>Resiliência:</h5>
+          <div id="resilBar" class="barSize">
+            <div id="resilDynamic" class="dynamicBar"></div>
+          </div>
+          
+          <h5>Força:</h5>
+          <div id="forceBar" class="barSize">
+            <div id="forceDynamic" class="dynamicBar"></div>
+          </div>
+          
+          <h5>Foco:</h5>
+          <div id="focusBar" class="barSize">
+            <div id="focusDynamic" class="dynamicBar"></div>
+          </div>
+          
+          <h5>Agilidade:</h5>
+          <div id="agilyBar" class="barSize">
+            <div id="agilyDynamic" class="dynamicBar"></div>
+          </div>
+        </div>
+        <div id="bossStory">
+          <div id="storyContent">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Janela de exibição de Boss -->
+  <div id="closeTabs" onclick="venishTabs()"></div>
+</body>
